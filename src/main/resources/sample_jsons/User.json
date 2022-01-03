@@ -1,0 +1,102 @@
+{
+  "userId": "User1",
+  "password": "Password1",
+  "firstName": "FirstName1",
+  "middleName": "MiddleName1",
+  "lastName": "LastName1",
+  "email": "Email1",
+  "userGroups": [
+    {
+      "groupName": "Group1",
+      "groupDescription": "GroupDescription1",
+      "roles": [
+        {
+          "roleName": "Role1",
+          "policies": [
+            {
+              "policyName": "Policy1",
+              "policyDescription": "Policy1 Desc"
+            },
+            {
+              "policyName": "Policy2",
+              "policyDescription": "Policy2 Desc"
+            }
+          ]
+        },
+        {
+          "roleName": "Role2",
+          "policies": [
+            {
+              "policyName": "Policy3",
+              "policyDescription": "Policy3 Desc"
+            },
+            {
+              "policyName": "Policy4",
+              "policyDescription": "Policy4 Desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Group2",
+      "groupDescription": "Group2 Desc",
+      "roles": [
+        {
+          "roleName": "Role3",
+          "policies": [
+            {
+              "policyName": "Policy5",
+              "policyDescription": "Policy5 Desc"
+            },
+            {
+              "policyName": "Policy6",
+              "policyDescription": "Policy6 Desc"
+            }
+          ]
+        },
+        {
+          "roleName": "Group 3",
+          "policies": [
+            {
+              "policyName": "Policy7",
+              "policyDescription": "Policy7 Desc"
+            },
+            {
+              "policyName": "Policy8",
+              "policyDescription": "Policy8 Desc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "roleName": "Role4",
+      "policies": [
+        {
+          "policyName": "Policy9",
+          "policyDescription": "Policy9 Desc"
+        },
+        {
+          "policyName": "Policy10",
+          "policyDescription": "Policy10 Desc"
+        }
+      ]
+    },
+    {
+      "roleName": "Role 5",
+      "policies": [
+        {
+          "policyName": "Policy11",
+          "policyDescription": "Policy11 Desc"
+        },
+        {
+          "policyName": "Policy12",
+          "policyDescription": "Policy12 Desc"
+        }
+      ]
+    }
+  ]
+}
